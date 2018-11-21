@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGraph", "CodeGraph\CodeGraph.csproj", "{449A5E1C-4004-4396-8D89-FA5541034734}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGraph.Interfaces", "CodeGraph.Interfaces\CodeGraph.Interfaces.csproj", "{F4F477D7-6638-42FD-A566-5C2E07B64411}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGraph.VS", "CodeGraph.VS\CodeGraph.VS.csproj", "{934F4D3A-E987-41A0-A74C-C302E79869BC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BC1D5C49-3E16-4B7E-987D-28095C5D0492}"
 	ProjectSection(SolutionItems) = preProject
 		devkey.snk = devkey.snk
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D6A63398-8E0E-454E-8097-D880CB3BAD6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGraph", "CodeGraph\CodeGraph.csproj", "{449A5E1C-4004-4396-8D89-FA5541034734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGraph.Interfaces", "CodeGraph.Interfaces\CodeGraph.Interfaces.csproj", "{F4F477D7-6638-42FD-A566-5C2E07B64411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGraph.VS", "CodeGraph.VS\CodeGraph.VS.csproj", "{934F4D3A-E987-41A0-A74C-C302E79869BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGraph.VS.Tests", "tests\CodeGraph.VS.Tests\CodeGraph.VS.Tests.csproj", "{9C340BA9-A95F-48F4-ACEC-03FF43E87B41}"
 EndProject
@@ -74,5 +74,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9C340BA9-A95F-48F4-ACEC-03FF43E87B41} = {D6A63398-8E0E-454E-8097-D880CB3BAD6C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57885770-4B99-45CF-BFB0-370962B2CEBE}
 	EndGlobalSection
 EndGlobal
